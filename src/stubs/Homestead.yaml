@@ -14,6 +14,8 @@ folders:
       to: /home/vagrant/Code
 
 sites:
+    - map: phpmyadmin.app
+      to: /usr/share/phpmyadmin/
     - map: homestead.app
       to: /home/vagrant/Code/Laravel/public
 
